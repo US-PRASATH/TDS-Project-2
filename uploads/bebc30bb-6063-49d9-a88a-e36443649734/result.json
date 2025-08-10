@@ -1,0 +1,8 @@
+{
+    "num_2bn_movies_before_2020": 5,
+    "earliest_film_over_1_5_bn": {
+        "title": "Titanic",
+        "year": 1997
+    },
+    "correlation_rank_peak": 0.7515816839497556
+}

@@ -1,0 +1,32 @@
+File path: uploads/fba9859f-1be6-42cc-91c9-eb7e2421ad34\data.csv
+Description: Highest-grossing films data scraped from Wikipedia.
+
+DataFrame Info:
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 50 entries, 0 to 49
+Data columns (total 5 columns):
+ #   Column           Non-Null Count  Dtype  
+---  ------           --------------  -----  
+ 0   Rank             50 non-null     int64  
+ 1   Peak             50 non-null     object 
+ 2   Title            50 non-null     object 
+ 3   Worldwide gross  45 non-null     float64
+ 4   Year             50 non-null     float64
+dtypes: float64(2), int64(1), object(2)
+memory usage: 2.1+ KB
+
+
+DataFrame Columns:
+['Rank', 'Peak', 'Title', 'Worldwide gross', 'Year']
+
+DataFrame Head (first 5 rows):
+
+   Rank Peak                     Title  Worldwide gross    Year
+0     1    1                    Avatar     2.923706e+09  2009.0
+1     2    1         Avengers: Endgame     2.797501e+09  2019.0
+2     3    3  Avatar: The Way of Water     2.320250e+09  2022.0
+3     4    1                   Titanic              NaN  1997.0
+4     5    5                  Ne Zha 2     2.204060e+09  2025.0
+
+JSON Answer Format for subsequent analysis:
+[answer_to_question_1, answer_to_question_2, answer_to_question_3, data:image/png;base64,iVBORw0...]
